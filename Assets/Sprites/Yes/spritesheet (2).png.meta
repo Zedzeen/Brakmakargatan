@@ -1,70 +1,79 @@
 fileFormatVersion: 2
-guid: 548ae223776a7c94bad5d8df1d4a7382
+guid: fbc71948a706a5d45889fe55ba8d2c00
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 21300000
-    second: Idle1
+      213: 585489585357299884
+    second: Walk_0
   - first:
-      213: 21300002
-    second: Idle2
+      213: 3213048799308102398
+    second: Walk_1
   - first:
-      213: 21300004
-    second: Idle3
+      213: 4619062684799962818
+    second: Walk_2
   - first:
-      213: 21300006
-    second: Punch1
+      213: -7543266853627613897
+    second: Walk_3
   - first:
-      213: 21300008
-    second: Punch2
+      213: 7642487444960770648
+    second: Walk_4
   - first:
-      213: 21300010
-    second: Punch3
+      213: -8314218504887557038
+    second: Walk_5
   - first:
-      213: 21300012
-    second: Kick1
+      213: 4628161946674252807
+    second: Walk_6
   - first:
-      213: 21300014
-    second: Kick2
+      213: 2558845048347152661
+    second: Walk_7
   - first:
-      213: 21300016
-    second: Kick3
+      213: 6679592398122706825
+    second: Walk_8
   - first:
-      213: 21300018
-    second: Jump
+      213: -8594432550802465286
+    second: Walk_9
   - first:
-      213: 21300020
-    second: Jumpkick1
+      213: -4802321612694238476
+    second: Walk_10
   - first:
-      213: 21300022
-    second: Jumpkick2
+      213: 3078060314560462942
+    second: Walk_11
   - first:
-      213: 21300024
-    second: Jumppunch1
+      213: 3098028786718313110
+    second: Walk_12
   - first:
-      213: 21300026
-    second: Jumppunch2
+      213: 5194832306232903171
+    second: Kick_0
   - first:
-      213: 21300028
-    second: Jumppunch3
+      213: 5689387848350221610
+    second: Kick_1
   - first:
-      213: 21300030
-    second: Walk1
+      213: 4365534288229913810
+    second: Kick_2
   - first:
-      213: 21300032
-    second: Walk2
+      213: -7254817889655524942
+    second: Kick_3
   - first:
-      213: 21300034
-    second: Walk3
+      213: 5548853530634879544
+    second: Kick_4
   - first:
-      213: 21300036
-    second: Walk4
+      213: -4489589777126468581
+    second: Kick_5
   - first:
-      213: 21300038
-    second: Block1
+      213: -2165831061152990217
+    second: Kick_6
   - first:
-      213: 21300040
-    second: Block2
+      213: 3124703232542153674
+    second: Kick_7
+  - first:
+      213: -488644763609697326
+    second: Kick_8
+  - first:
+      213: -6518311979692676372
+    second: Kick_9
+  - first:
+      213: -4670372051599755660
+    second: Kick_10
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -106,10 +115,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 8
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -124,11 +133,11 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 512
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -137,10 +146,10 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 512
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -149,18 +158,30 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idle1
+      name: Walk_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 16
+        width: 512
+        height: 512
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,20 +189,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6101bceb21fc8148a2d786c665238f7
-      internalID: 21300000
+      spriteID: ca0a9e20da3102800800000000000000
+      internalID: 585489585357299884
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle2
+      name: Walk_1
       rect:
         serializedVersion: 2
-        x: 16
+        x: 512
         y: 0
-        width: 16
-        height: 16
+        width: 512
+        height: 512
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -189,20 +210,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3d4a72a85fd7b54faeda4b786f37224
-      internalID: 21300002
+      spriteID: efa31c80cda079c20800000000000000
+      internalID: 3213048799308102398
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle3
+      name: Walk_2
       rect:
         serializedVersion: 2
-        x: 32
+        x: 1024
         y: 0
-        width: 16
-        height: 16
+        width: 512
+        height: 512
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -210,20 +231,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b15860a564faa644e8925c29c0060d7d
-      internalID: 21300004
+      spriteID: 2ce83caf9053a1040800000000000000
+      internalID: 4619062684799962818
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Punch1
+      name: Walk_3
       rect:
         serializedVersion: 2
-        x: 48
+        x: 1536
         y: 0
-        width: 16
-        height: 16
+        width: 512
+        height: 512
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -231,20 +252,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3065b1cdb1ac4c46bd3ed5359b7e000
-      internalID: 21300006
+      spriteID: 73d2c8733cee05790800000000000000
+      internalID: -7543266853627613897
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Punch2
+      name: Walk_4
       rect:
         serializedVersion: 2
-        x: 64
+        x: 2048
         y: 0
-        width: 16
-        height: 16
+        width: 512
+        height: 512
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,20 +273,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6946d2338e4bca4e824aa325a601a65
-      internalID: 21300008
+      spriteID: 85af44de6d19f0a60800000000000000
+      internalID: 7642487444960770648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Punch3
+      name: Walk_5
       rect:
         serializedVersion: 2
-        x: 80
+        x: 2560
         y: 0
-        width: 16
-        height: 16
+        width: 512
+        height: 512
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -273,20 +294,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3e3de705ea8032428550ce2b007b1f7
-      internalID: 21300010
+      spriteID: 254a2370256fd9c80800000000000000
+      internalID: -8314218504887557038
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick1
+      name: Walk_6
       rect:
         serializedVersion: 2
-        x: 96
+        x: 3072
         y: 0
-        width: 16
-        height: 16
+        width: 512
+        height: 512
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,20 +315,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: baec8b54840019545a744097ac0ec2f3
-      internalID: 21300012
+      spriteID: 70ccf7af4c88a3040800000000000000
+      internalID: 4628161946674252807
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick2
+      name: Walk_7
       rect:
         serializedVersion: 2
-        x: 112
+        x: 3584
         y: 0
-        width: 16
-        height: 16
+        width: 512
+        height: 512
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -315,20 +336,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec8932588dd296844bdd961c2ef6cffe
-      internalID: 21300014
+      spriteID: 511dffd9308d28320800000000000000
+      internalID: 2558845048347152661
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kick3
+      name: Walk_8
       rect:
         serializedVersion: 2
-        x: 128
+        x: 4096
         y: 0
-        width: 16
-        height: 16
+        width: 512
+        height: 512
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,20 +357,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48b019e8b0f28c4438117d74bee6b3cc
-      internalID: 21300016
+      spriteID: 987e08665eda2bc50800000000000000
+      internalID: 6679592398122706825
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jump
+      name: Walk_9
       rect:
         serializedVersion: 2
-        x: 144
+        x: 4608
         y: 0
-        width: 16
-        height: 16
+        width: 512
+        height: 512
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -357,20 +378,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86f1d78a6711b2e459c53ec075775c14
-      internalID: 21300018
+      spriteID: afd5d5b51217ab880800000000000000
+      internalID: -8594432550802465286
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jumpkick1
+      name: Walk_10
       rect:
         serializedVersion: 2
-        x: 160
+        x: 5120
         y: 0
-        width: 16
-        height: 16
+        width: 512
+        height: 512
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -378,20 +399,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2528d8d9da425104584c60e9e264b3a3
-      internalID: 21300020
+      spriteID: 4facd22efe9ba5db0800000000000000
+      internalID: -4802321612694238476
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jumpkick2
+      name: Walk_11
       rect:
         serializedVersion: 2
-        x: 176
+        x: 5632
         y: 0
-        width: 16
-        height: 16
+        width: 512
+        height: 512
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -399,20 +420,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bc1b1dd94096b04aba0c425f8e3ada0
-      internalID: 21300022
+      spriteID: e508a9e3c8777ba20800000000000000
+      internalID: 3078060314560462942
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jumppunch1
+      name: Walk_12
       rect:
         serializedVersion: 2
-        x: 192
+        x: 6144
         y: 0
-        width: 16
-        height: 16
+        width: 512
+        height: 512
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -420,20 +441,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fb324e1819d09846a101c0aac41db06
-      internalID: 21300024
+      spriteID: 69a874874c86efa20800000000000000
+      internalID: 3098028786718313110
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jumppunch2
+      name: Kick_0
       rect:
         serializedVersion: 2
-        x: 208
+        x: 6649
         y: 0
-        width: 16
-        height: 16
+        width: 512
+        height: 512
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -441,20 +462,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac16fc1c627ceb34185394396820b611
-      internalID: 21300026
+      spriteID: 3064cb88570c71840800000000000000
+      internalID: 5194832306232903171
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jumppunch3
+      name: Kick_1
       rect:
         serializedVersion: 2
-        x: 224
+        x: 7169
         y: 0
-        width: 16
-        height: 16
+        width: 512
+        height: 512
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -462,20 +483,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a7b8871642605f4b9216c1db515da01
-      internalID: 21300028
+      spriteID: a25c65aba14c4fe40800000000000000
+      internalID: 5689387848350221610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk1
+      name: Kick_2
       rect:
         serializedVersion: 2
-        x: 240
+        x: 7680
         y: 0
-        width: 16
-        height: 16
+        width: 512
+        height: 512
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -483,20 +504,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e45f11233abb364485da2e3733af5b3
-      internalID: 21300030
+      spriteID: 2d45bb83e4e759c30800000000000000
+      internalID: 4365534288229913810
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk2
+      name: Kick_3
       rect:
         serializedVersion: 2
-        x: 256
+        x: 8192
         y: 0
-        width: 16
-        height: 16
+        width: 512
+        height: 512
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -504,20 +525,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 663a33a2c5538514fa21e17e15c60337
-      internalID: 21300032
+      spriteID: 2b1fee82195b15b90800000000000000
+      internalID: -7254817889655524942
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk3
+      name: Kick_4
       rect:
         serializedVersion: 2
-        x: 272
+        x: 8704
         y: 0
-        width: 16
-        height: 16
+        width: 512
+        height: 512
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -525,20 +546,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c069d413d5810f04f9ff9b5054b250e4
-      internalID: 21300034
+      spriteID: 8320a2413ec710d40800000000000000
+      internalID: 5548853530634879544
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk4
+      name: Kick_5
       rect:
         serializedVersion: 2
-        x: 288
+        x: 9216
         y: 0
-        width: 16
-        height: 16
+        width: 512
+        height: 512
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -546,20 +567,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5651cabaed9c0f4fac4f27133870455
-      internalID: 21300036
+      spriteID: b14d62372e5c1b1c0800000000000000
+      internalID: -4489589777126468581
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Block1
+      name: Kick_6
       rect:
         serializedVersion: 2
-        x: 304
+        x: 9728
         y: 0
-        width: 16
-        height: 16
+        width: 512
+        height: 512
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -567,20 +588,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b58bc97abb888b42a2d25db2ed01f6f
-      internalID: 21300038
+      spriteID: 7fbf77cff1c61f1e0800000000000000
+      internalID: -2165831061152990217
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Block2
+      name: Kick_7
       rect:
         serializedVersion: 2
-        x: 320
+        x: 10240
         y: 0
-        width: 16
-        height: 16
+        width: 512
+        height: 512
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -588,8 +609,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fec307895de91ed4499b65f999517fe7
-      internalID: 21300040
+      spriteID: acb903cd80d2d5b20800000000000000
+      internalID: 3124703232542153674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kick_8
+      rect:
+        serializedVersion: 2
+        x: 10752
+        y: 0
+        width: 512
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d370bb2d2cf739f0800000000000000
+      internalID: -488644763609697326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kick_9
+      rect:
+        serializedVersion: 2
+        x: 11264
+        y: 0
+        width: 512
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceaae3b3acd4a85a0800000000000000
+      internalID: -6518311979692676372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kick_10
+      rect:
+        serializedVersion: 2
+        x: 11776
+        y: 0
+        width: 512
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476fb7f1d518f2fb0800000000000000
+      internalID: -4670372051599755660
       vertices: []
       indices: 
       edges: []
@@ -597,7 +681,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 7a6f7902202e83048a4329a7b6825018
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
